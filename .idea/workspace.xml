@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58f5b2e2-32e2-4aed-a025-9d53cabd7be0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/BacktrackSearch/BacktrackSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BacktrackSearch/BacktrackSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BacktrackSearch/JobShopSchedulingSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BacktrackSearch/JobShopSchedulingSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BacktrackSearch/JobShopSchedulingSearch.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="186">
@@ -57,16 +57,12 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#482#483#0" expanded="true" />
                 <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#591#592#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BacktrackSearch/BacktrackSearch.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -108,8 +104,8 @@
         <option value="$PROJECT_DIR$/src/Constraint/JobShopSchedulingConstraint.java" />
         <option value="$PROJECT_DIR$/src/CSP/JobShopSchedulingCSP.java" />
         <option value="$PROJECT_DIR$/src/CSP/CSP.java" />
-        <option value="$PROJECT_DIR$/src/BacktrackSearch/JobShopSchedulingSearch.java" />
         <option value="$PROJECT_DIR$/src/BacktrackSearch/BacktrackSearch.java" />
+        <option value="$PROJECT_DIR$/src/BacktrackSearch/JobShopSchedulingSearch.java" />
       </list>
     </option>
   </component>
@@ -180,7 +176,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551473017100" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551473143774" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -218,16 +215,15 @@
       <updated>1551403032907</updated>
       <workItem from="1551403034435" duration="3205000" />
       <workItem from="1551406533441" duration="79000" />
-      <workItem from="1551461381613" duration="4858000" />
+      <workItem from="1551461381613" duration="4984000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8142000" />
+    <option name="totallyTimeSpent" value="8268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="141" y="119" width="1480" height="813" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24965133" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -368,6 +364,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/BacktrackSearch/BacktrackSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BacktrackSearch/JobShopSchedulingSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -376,20 +382,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#482#483#0" expanded="true" />
             <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BacktrackSearch/BacktrackSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
