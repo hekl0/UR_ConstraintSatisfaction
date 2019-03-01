@@ -18,7 +18,7 @@ public abstract class BacktrackSearch<Problem extends CSP<Variable, DomainValue,
 
         Variable variable = selectUnassignedVariable(assignments, csp);
         for (DomainValue domainValue: csp.domains.get(variable))
-            if (checkConsistent(variable, domainValue, csp)) {
+            if (checkConsistent(variable, domainValue, assignments, csp)) {
                 assignments.put(variable, domainValue);
                 HashMap<Variable, DomainValue> result = backtrack(assignments, csp);
                 if (result != null)
