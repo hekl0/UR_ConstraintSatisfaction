@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58f5b2e2-32e2-4aed-a025-9d53cabd7be0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BacktrackSearch/JobShopSchedulingSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CSP/JobShopSchedulingCSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Constraint/JobShopSchedulingConstraint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Variable/JobShopSchedulingVariable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BacktrackSearch/BacktrackSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BacktrackSearch/BacktrackSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CSP/CSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSP/CSP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BacktrackSearch/JobShopSchedulingSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BacktrackSearch/JobShopSchedulingSearch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,23 +48,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BacktrackSearch/JobShopSchedulingSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="186">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BacktrackSearch/BacktrackSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+            <state relative-caret-position="120">
+              <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,8 +108,8 @@
         <option value="$PROJECT_DIR$/src/Constraint/JobShopSchedulingConstraint.java" />
         <option value="$PROJECT_DIR$/src/CSP/JobShopSchedulingCSP.java" />
         <option value="$PROJECT_DIR$/src/CSP/CSP.java" />
-        <option value="$PROJECT_DIR$/src/BacktrackSearch/BacktrackSearch.java" />
         <option value="$PROJECT_DIR$/src/BacktrackSearch/JobShopSchedulingSearch.java" />
+        <option value="$PROJECT_DIR$/src/BacktrackSearch/BacktrackSearch.java" />
       </list>
     </option>
   </component>
@@ -180,7 +180,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551472778854" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551473017100" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -218,18 +218,18 @@
       <updated>1551403032907</updated>
       <workItem from="1551403034435" duration="3205000" />
       <workItem from="1551406533441" duration="79000" />
-      <workItem from="1551461381613" duration="4620000" />
+      <workItem from="1551461381613" duration="4858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7904000" />
+    <option name="totallyTimeSpent" value="8142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="141" y="119" width="1480" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24965133" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24965133" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -243,7 +243,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289855" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32848838" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -368,20 +368,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BacktrackSearch/BacktrackSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/BacktrackSearch/JobShopSchedulingSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        <state relative-caret-position="186">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BacktrackSearch/JobShopSchedulingSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/BacktrackSearch/BacktrackSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
