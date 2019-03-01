@@ -6,7 +6,7 @@ public class JobShopSchedulingConstraint {
     public TypeConstraint typeConstraint;
     public JobShopSchedulingVariable v1, v2;
 
-    enum TypeConstraint {
+    public enum TypeConstraint {
         Before,
         ShareTool
     }

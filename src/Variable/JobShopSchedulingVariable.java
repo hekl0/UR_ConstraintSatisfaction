@@ -1,6 +1,6 @@
 package Variable;
 
 public class JobShopSchedulingVariable {
-    String name;
-    int duration;
+    public String name;
+    public int duration;
 }

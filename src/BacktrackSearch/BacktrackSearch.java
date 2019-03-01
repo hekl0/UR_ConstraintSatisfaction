@@ -31,5 +31,5 @@ public abstract class BacktrackSearch<Problem extends CSP<Variable, DomainValue,
 
     public abstract boolean checkComplete(HashMap<Variable, DomainValue> assignments, Problem csp);
     public abstract Variable selectUnassignedVariable(HashMap<Variable, DomainValue> assignments, Problem csp);
-    public abstract boolean checkConsistent(Variable variable, DomainValue valueAssigning, Problem csp);
+    public abstract boolean checkConsistent(Variable variable, DomainValue valueAssigning, HashMap<Variable, DomainValue> assignments, Problem csp);
 }
