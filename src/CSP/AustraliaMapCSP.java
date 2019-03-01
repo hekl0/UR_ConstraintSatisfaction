@@ -12,4 +12,9 @@ public class AustraliaMapCSP extends CSP<AustraliaMapVariable, AustraliaMapValue
         variables = new ArrayList<AustraliaMapVariable>();
 
     }
+
+    @Override
+    public void printProblem() {
+
+    }
 }

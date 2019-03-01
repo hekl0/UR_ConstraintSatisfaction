@@ -1,10 +1,8 @@
 package BacktrackSearch;
 
 import CSP.CSP;
-import jdk.nashorn.internal.ir.Assignment;
 
 import java.util.HashMap;
-import java.util.List;
 
 public abstract class BacktrackSearch<Problem extends CSP<Variable, DomainValue, Constraint>, Variable, DomainValue, Constraint> {
     public HashMap<Variable, DomainValue> BT(Problem csp) {
