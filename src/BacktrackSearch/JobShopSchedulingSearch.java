@@ -4,13 +4,11 @@ import CSP.JobShopSchedulingCSP;
 import Constraint.JobShopSchedulingConstraint;
 import Variable.JobShopSchedulingVariable;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 public class JobShopSchedulingSearch extends BacktrackSearch<JobShopSchedulingCSP, JobShopSchedulingVariable, Integer, JobShopSchedulingConstraint> {
     @Override
-    public boolean checkComplete(HashMap<JobShopSchedulingVariable, Integer> assignments) {
+    public boolean checkComplete(HashMap<JobShopSchedulingVariable, Integer> assignments, JobShopSchedulingCSP csp) {
         return false;
     }
 

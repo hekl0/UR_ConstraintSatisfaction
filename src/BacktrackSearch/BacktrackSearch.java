@@ -14,7 +14,7 @@ public abstract class BacktrackSearch<Problem extends CSP<Variable, DomainValue,
 
     //return null = return failure
     public HashMap<Variable, DomainValue> backtrack(HashMap<Variable, DomainValue> assignments, Problem csp) {
-        if (checkComplete(assignments)) return assignments;
+        if (checkComplete(assignments, csp)) return assignments;
 
         Variable variable = selectUnassignedVariable(assignments, csp);
         for (DomainValue domainValue: csp.domains.get(variable))
@@ -29,7 +29,7 @@ public abstract class BacktrackSearch<Problem extends CSP<Variable, DomainValue,
         return null;
     }
 
-    public abstract boolean checkComplete(HashMap<Variable, DomainValue> assignments);
+    public abstract boolean checkComplete(HashMap<Variable, DomainValue> assignments, Problem csp);
     public abstract Variable selectUnassignedVariable(HashMap<Variable, DomainValue> assignments, Problem csp);
     public abstract boolean checkConsistent(Variable variable, DomainValue valueAssigning, Problem csp);
 }
