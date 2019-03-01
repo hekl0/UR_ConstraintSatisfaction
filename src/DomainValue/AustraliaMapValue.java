@@ -1,5 +1,5 @@
 package DomainValue;
 
 public enum AustraliaMapValue {
-    Red, Green, Blue
+    Red, Green, Blue, None
 }
