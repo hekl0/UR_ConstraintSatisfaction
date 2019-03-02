@@ -1,5 +1,8 @@
 package Variable;
 
 public class AustraliaMapVariable {
-    int name;
+    public String name;
+    public AustraliaMapVariable(String name) {
+        this.name = name;
+    }
 }
