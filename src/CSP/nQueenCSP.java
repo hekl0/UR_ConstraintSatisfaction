@@ -19,16 +19,14 @@ public class nQueenCSP extends CSP<nQueenVariable,nQueenValue,nQueenConstraint> 
 
         //init variables
         for (int i = 1; i <= num; i++){
-            variables.add(new nQueenVariable("Q" + i));
+            variables.add(new nQueenVariable("Q" + i,i));
         }
 
         //init domains
         for (nQueenVariable variable : variables){
             List<nQueenValue> domain = new ArrayList<>();
-            for (int row = 1; row <= 8; row++){
-                for (int col = 1; col <= 8; col++){
-                    domain.add(new nQueenValue(row,col));
-                }
+            for (int col = 1; col <= num; col++){
+                domain.add(new nQueenValue(col));
             }
             domains.put(variable,domain);
         }
@@ -45,7 +43,7 @@ public class nQueenCSP extends CSP<nQueenVariable,nQueenValue,nQueenConstraint> 
 
     @Override
     public void printProblem() {
-        System.out.println("The index on the Board start from 1 to 8");
+        System.out.printf("The index on the Board start from 1 to %d\n", num);
         System.out.print("There are " + this.variables.size() + " variables: ");
         System.out.print("{");
         System.out.print(variables.get(0).name);
@@ -54,7 +52,7 @@ public class nQueenCSP extends CSP<nQueenVariable,nQueenValue,nQueenConstraint> 
         }
         System.out.print("}");
         System.out.println();
-        System.out.println("The Initial Domain for each Variable is any position on the 8x8 Board");
+        System.out.printf("The Initial Domain for each Variable is any position on the %dx%d Board\n", num, num);
         System.out.print("There are " + this.constraints.size() + " constraints:");
         System.out.print("{");
         System.out.print(constraints.get(0).q1.name + " X " + constraints.get(0).q2.name);

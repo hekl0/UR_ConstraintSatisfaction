@@ -24,19 +24,19 @@ public class nQueenSearch extends BacktrackSearch<nQueenCSP, nQueenVariable, nQu
     @Override
     public boolean checkConsistent(nQueenVariable nQueenVariable, nQueenValue valueAssigning, HashMap<nQueenVariable, nQueenValue> assignments, nQueenCSP csp) {
         for (nQueenConstraint constraint : csp.constraints) {
-            int col1 = valueAssigning.col;
+            int col1 = nQueenVariable.index;
             int row1 = valueAssigning.row;
             if (constraint.q1 == nQueenVariable) {
                 if (assignments.get(constraint.q2) == null) continue;
                 else {
-                    int col2 = assignments.get(constraint.q2).col;
+                    int col2 = constraint.q2.index;
                     int row2 = assignments.get(constraint.q2).row;
                     if (checkAttacking(col1, row1, col2, row2)) return false;
                 }
             } else if (constraint.q2 == nQueenVariable) {
                 if (assignments.get(constraint.q1) == null) continue;
                 else {
-                    int col2 = assignments.get(constraint.q1).col;
+                    int col2 = constraint.q1.index;
                     int row2 = assignments.get(constraint.q1).row;
                     if (checkAttacking(col1, row1, col2, row2)) return false;
                 }

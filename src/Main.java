@@ -63,9 +63,9 @@ public class Main {
         }
         System.out.print("Solution is: ");
         System.out.print("{");
-        System.out.print(nQueenCSP.variables.get(0).name + ":" + "(" + nQueenAssign.get(nQueenCSP.variables.get(0)).row + "," + nQueenAssign.get(nQueenCSP.variables.get(0)).col + ")");
+        System.out.print(nQueenCSP.variables.get(0).name + ":" + "(" + nQueenAssign.get(nQueenCSP.variables.get(0)).row + "," + nQueenCSP.variables.get(0).index + ")");
         for (int i = 1; i < nQueenCSP.variables.size(); i++) {
-            System.out.print("," + nQueenCSP.variables.get(i).name + ":" + "(" + nQueenAssign.get(nQueenCSP.variables.get(i)).row + "," + nQueenAssign.get(nQueenCSP.variables.get(i)).col + ")");
+            System.out.print("," + nQueenCSP.variables.get(i).name + ":" + "(" + nQueenAssign.get(nQueenCSP.variables.get(i)).row + "," + nQueenCSP.variables.get(i).index + ")");
         }
         System.out.print("}");
     }
