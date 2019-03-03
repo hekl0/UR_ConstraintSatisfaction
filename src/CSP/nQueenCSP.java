@@ -52,15 +52,21 @@ public class nQueenCSP extends CSP<nQueenVariable,nQueenValue,nQueenConstraint> 
         }
         System.out.print("}");
         System.out.println();
-        System.out.printf("The Initial Domain for each Variable is any position on the %dx%d Board\n", num, num);
-        System.out.print("There are " + this.constraints.size() + " constraints:");
-        System.out.print("{");
-        System.out.print(constraints.get(0).q1.name + " X " + constraints.get(0).q2.name);
-        for (int i = 1; i < constraints.size(); i++) {
-            System.out.print(", " + constraints.get(i).q1.name + " X " + constraints.get(i).q2.name);
+        System.out.print("The Initial Domain for each Variable is: {1");
+        for (int i = 2; i <= num; i++) {
+            System.out.print("," + i);
         }
         System.out.println("}");
-        System.out.println("Note: The symbol \"X\" means \"does not attack\"");
-        System.out.println("For example: \"Q1 X Q2\" means Q1 does not attack Q2");
+        System.out.print("There are " + this.constraints.size() + " constraints");
+        if (constraints.size() > 0) {
+            System.out.print(":{");
+            System.out.print(constraints.get(0).q1.name + " X " + constraints.get(0).q2.name);
+            for (int i = 1; i < constraints.size(); i++) {
+                System.out.print(", " + constraints.get(i).q1.name + " X " + constraints.get(i).q2.name);
+            }
+            System.out.println("}");
+            System.out.println("Note: The symbol \"X\" means \"does not attack\"");
+            System.out.println("For example: \"Q1 X Q2\" means Q1 does not attack Q2");
+        }
     }
 }
