@@ -3,6 +3,10 @@ package Constraint;
 import Variable.JobShopSchedulingVariable;
 
 public class JobShopSchedulingConstraint {
+    /**
+     * Initialize the Constraint
+     * The constraint includes two tasks and The Types of Constraint are Before and Share Tool
+     **/
     public TypeConstraint typeConstraint;
     public JobShopSchedulingVariable v1, v2;
 

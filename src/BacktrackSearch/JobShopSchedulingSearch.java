@@ -7,6 +7,7 @@ import Variable.JobShopSchedulingVariable;
 import java.util.HashMap;
 
 public class JobShopSchedulingSearch extends BacktrackSearch<JobShopSchedulingCSP, JobShopSchedulingVariable, Integer, JobShopSchedulingConstraint> {
+
     @Override
     public boolean checkComplete(HashMap<JobShopSchedulingVariable, Integer> assignments, JobShopSchedulingCSP csp) {
         return (assignments.size() == csp.variables.size());

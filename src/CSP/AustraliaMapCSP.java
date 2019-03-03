@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.List;
 
 public class AustraliaMapCSP extends CSP<AustraliaMapVariable, AustraliaMapValue, AustraliaMapConstraint> {
+
     public AustraliaMapCSP() {
         variables = new ArrayList<>();
         domains = new HashMap<>();

@@ -9,7 +9,9 @@ import java.util.HashMap;
 import java.util.List;
 
 public class nQueenCSP extends CSP<nQueenVariable,nQueenValue,nQueenConstraint> {
+
     public int num;
+
     public nQueenCSP(int num) {
         this.num = num;
 

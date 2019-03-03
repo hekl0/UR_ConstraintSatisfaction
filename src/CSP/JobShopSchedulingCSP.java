@@ -32,7 +32,7 @@ public class JobShopSchedulingCSP extends CSP<JobShopSchedulingVariable, Integer
         this.variables.add(new JobShopSchedulingVariable("CapLB", 1));
         this.variables.add(new JobShopSchedulingVariable("Inspect", 3));
 
-        //init domain
+        //init domains
         for (JobShopSchedulingVariable variable : this.variables) {
             List<Integer> domain = new ArrayList<>();
             if (!variable.name.equals("Inspect"))
@@ -42,7 +42,7 @@ public class JobShopSchedulingCSP extends CSP<JobShopSchedulingVariable, Integer
             this.domains.put(variable, domain);
         }
 
-        //init constraint
+        //init constraints
         this.constraints.add(new JobShopSchedulingConstraint(JobShopSchedulingConstraint.TypeConstraint.Before, this.variables.get(0), this.variables.get(2)));
         this.constraints.add(new JobShopSchedulingConstraint(JobShopSchedulingConstraint.TypeConstraint.Before, this.variables.get(0), this.variables.get(3)));
         this.constraints.add(new JobShopSchedulingConstraint(JobShopSchedulingConstraint.TypeConstraint.Before, this.variables.get(1), this.variables.get(4)));
