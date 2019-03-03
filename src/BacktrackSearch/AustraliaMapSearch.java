@@ -6,7 +6,6 @@ import DomainValue.AustraliaMapValue;
 import Variable.AustraliaMapVariable;
 
 import java.util.HashMap;
-import java.util.List;
 
 public class AustraliaMapSearch extends BacktrackSearch<AustraliaMapCSP, AustraliaMapVariable, AustraliaMapValue, AustraliaMapConstraint>{
 
